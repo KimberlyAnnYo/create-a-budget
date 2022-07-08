@@ -146,8 +146,10 @@ function sendTransaction(isAdding) {
 
 document.querySelector("#add-btn").onclick = function() {
   sendTransaction(true);
+  alert("You added a deposit!")
 };
 
 document.querySelector("#sub-btn").onclick = function() {
   sendTransaction(false);
+  alert("You have added an expense!")
 };
