@@ -144,6 +144,7 @@ function sendTransaction(isAdding) {
   });
 }
 
+
 document.querySelector("#add-btn").onclick = function() {
   sendTransaction(true);
   alert("You added a deposit!")
